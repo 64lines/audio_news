@@ -1,4 +1,3 @@
-# News Anchor
+# Personal Assistant
 
-Python program that read news out loud using Mac OSX voice command.
-
+Python program to serve as personal assistant that would be able to read out loud news and articles of interest, save text and other applications.
