@@ -9,9 +9,6 @@ def get_voice():
 def run_voice_command(text, voice):
     return os.system("say \"%s\" --voice=%s" % (text.encode('utf-8'), voice))
 
-def say_text(text):
-    return run_voice_command(text, get_voice())
-
 def get_hour():
     return date.now().hour
 
@@ -26,3 +23,6 @@ def calculate_gretting_text():
 
 def greeting():
     return run_voice_command(calculate_gretting_text(), get_voice())
+
+def say_text(text):
+    return run_voice_command(text, get_voice())

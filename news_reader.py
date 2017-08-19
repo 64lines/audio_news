@@ -17,7 +17,7 @@ def read_news(url):
 def run_reader():
     print "Reading..."
     greeting()
-    [read_news(url) for url in random.choice([
+    [read_news(url) for url in [
         "http://rss.nytimes.com/services/xml/rss/nyt/World.xml",
         "http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
         "http://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
@@ -26,6 +26,6 @@ def run_reader():
         "http://rss.nytimes.com/services/xml/rss/nyt/Sports.xml",
         "http://rss.nytimes.com/services/xml/rss/nyt/Science.xml",
         "http://rss.nytimes.com/services/xml/rss/nyt/Health.xml"
-    ])]
+    ]]
 
 run_reader()
