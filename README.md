@@ -1,3 +1,8 @@
-# Personal Assistant
+# Audio News
 
-Python program to serve as personal assistant that would be able to read out loud news and articles of interest, save text and other applications.
+Python program where you can listen updated news with a sexy brittish accent for Mac OS X.
+
+Execute this program using the next command:
+```bash
+python news_reader.py
+```
